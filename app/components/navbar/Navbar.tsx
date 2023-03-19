@@ -30,7 +30,7 @@ export const Navbar = () => {
               ? (
                 <Flex justify='space-between' flex='1'>
                   <ButtonGroup variant='link' spacing='8'>
-                    <Button as={Link} href='/mission'>Mission</Button>
+                    <Button as={Link} href='/trusts'>Trusts</Button>
                     <Button
                       variant='link'
                       rightIcon={<PopoverIcon isOpen={isOpen} />}
@@ -38,12 +38,10 @@ export const Navbar = () => {
                     >
                       Resources
                     </Button>
-                    <Button as={Link} href='/events/privacy-practicum'>Privacy Practicum</Button>
-                    <Button as={Link} href='https://www.deleteyourdata.com' target='_blank'>Delete Your Data</Button>
+                    <Button as={Link} href='https://www.neonlaw.org' target='_blank'>Our Foundation</Button>
                   </ButtonGroup>
                   <HStack spacing='3'>
-                    <Button variant='ghost' as={Link} href='/subscribe'>Subscribe</Button>
-                    <Button variant='primary' as={Link} href={overflowLink} target='_blank'>Donate</Button>
+                    <Button variant='primary' as={Link} href={overflowLink} target='_blank'>Sign Up</Button>
                   </HStack>
                 </Flex>
                 )

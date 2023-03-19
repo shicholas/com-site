@@ -28,7 +28,7 @@ export const Footer = (): ReactElement => {
             </ButtonGroup>
           </Stack>
           <Text fontSize='sm' color='on-accent-subtle'>
-            &copy; {new Date().getFullYear()} Neon Law Foundation. Apache-2 License.
+            &copy; {new Date().getFullYear()} Neon Law. All Rights Reserved.
           </Text>
         </Stack>
       </Container>

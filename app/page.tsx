@@ -40,7 +40,7 @@ const Page = () => {
             display='inline-flex'
             minW='18rem'
             as={Link}
-            href='/events/privacy-practicum'
+            href='/services/privacy-trust'
           >
             <Badge
               px='2'
@@ -51,7 +51,7 @@ const Page = () => {
             >
               New
             </Badge>
-            <Box fontWeight='medium'>Introducing the Privacy Practicum</Box>
+            <Box fontWeight='medium'>Introducing the Privacy Trust</Box>
             <Box
               aria-hidden
               transition='0.2s all'
@@ -61,31 +61,17 @@ const Page = () => {
             />
           </HStack>
           <Heading as='h1' size='3xl' lineHeight='1' fontWeight='extrabold' letterSpacing='tight'>
-            We fight for{' '}
+            Estate Planning for{' '}
             <Box as='mark' color={mode('blue.500', 'blue.300')} bg='transparent'>
-              your privacy rights.
+              your assets and data.
             </Box>
           </Heading>
           <Text mt={4} fontSize='xl' fontWeight='medium' color={mode('gray.600', 'gray.400')}>
-            Our non-profit provides free legal resources for people like you who want to protect their secrets.
+            We create trusts to give you greater control over what you own, including your personal information.
           </Text>
           <Stack direction={{ base: 'column', sm: 'row' }} spacing='4' mt='8'>
             <Button size='lg' colorScheme='blue' height='14' px='8' fontSize='md' as={Link} href='/subscribe'>
-              Subscribe to our Newsletter
-            </Button>
-            <Button
-              size='lg'
-              bg='white'
-              color='gray.800'
-              _hover={{ bg: 'gray.50' }}
-              height='14'
-              px='8'
-              shadow='base'
-              fontSize='md'
-              as='a'
-              href='https://app.overflow.co/neonlawfoundation'
-            >
-              Donate
+              Sign up
             </Button>
           </Stack>
         </Box>
