@@ -39,3 +39,4 @@ package-lock.json
 static/
 
 __generated__/
+.next/
